@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<libro>
+	<titulo></titulo>
+	<autores></autores>
+	<editorial></editorial>
+	<fechapublicacion></fechapublicacion>
+	<isbn></isbn>
+	<precio moneda="euros"></precio>
+	<n.paginas></n.paginas>
+</libro>
+
+1.
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<agenda>
+	<entrada>
+		<nombre-completo>Marta Elena Tablada</nombre-completo>
+	</entrada>
+</agenda>
+
+2.
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nombre-completo>Marta Elena Tablada</nombre-completo>
+<direccion>
+	<calle>Avda Los Castros</calle>
+	<codigo-postal>39005</codigo-postal>
+	<region>Cantabria</Cantabria>
+	<pais>España</pais>
+</direccion>
+<tel preferente="true">942201363</tel>
+<correo-e href="tabladam@unican.es"></correo-e>
+
+3.
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<padre>
+	<hijo1>
+		<nombre>Juan</nombre>
+		<apellido>Pérez</apellido>
+	</hijo1>
+	<hijo2>
+		<nombre>Luis</nombre>
+		<apellido>García</apellido>
+	</hijo2>
+</padre>
+
+4. 
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<hijo1>
+    <nombre>Juan</nombre>
+    <apellido>Pérez</apellido>
+</hijo1>
+	
+<hijo2>
+	<nombre>Luis</nombre>
+	<apellido>García</apellido>
+</hijo2>
+
+5.
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pelicula>
+	<titulo>Con faldas y a lo loco</titulo>
+	<director>Billy Wilder</director>
+</pelicula>
+<pelicula>
+	<titulo>Sopa de ganso</titulo>
+	<director>Leo McCarey</director>
+</pelicula>
+<autor>barto</autor>
