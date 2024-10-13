@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lenguajedemarcas>
+	<tiempo unidad="hora">3</tiempo>
+	<fecha unidad="meses">16/09/2024-20/05/2025</fecha>
+	<!-- PREGUNTAR A JUANFRAN SOBRE LA FECHA-->
+	<estudiantes>
+		<estudiante id="1">
+			<nombre>Ana Fernández Gutiérrez</nombre>
+			<dni>16965696L</dni>
+			<correo>ana.fdezgtrrez@hotmail.com</correo>
+			<direccion>Calle del percebe 13, Chipiona</direccion>
+			<codigopostal>11550</codigopostal>
+			<ausencias/>
+			<calificacion/>
+		</estudiante>		
+		<estudiante id="2">
+			<nombre>Pepe Grillo Márquez</nombre>
+			<dni>98765432H</dni>
+			<correo>yhyh@yahoo.com</correo>
+			<direccion>Avenida El Pez, 5, Rota</direccion>
+			<codigopostal>11520</codigopostal>
+			<ausencias/>
+			<calificacion>Aprobado</calificacion>
+		</estudiante>
+</lenguajedemarcas>

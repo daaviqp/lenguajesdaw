@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+	<datos_personales>
+		<nombre>David</nombre>
+		<apellidos>Quirós Pareja</apellidos>
+		<fecha_nac>28/08/2006</fecha_nac>
+		<lugar_nac>Cádiz</lugar_nac>
+		<nacionalidad>Español</nacionalidad>
+		<nume_de_ident>44068304M</num_de_ident>
+		<foto></foto>
+	</datospersonales>
+	<datos_contacto>
+		<domicilio>
+			<nombre_via tipo="calle">Fernando Albi</nombre_via>
+			<numero>14</numero>
+			<portal/>
+			<escalera/>
+			<piso/>
+			<puerta/>
+			<cod_post>11160</cod_post>
+			<pais>España</pais>
+		</domicilio>
+		<contacto>
+			<email>dquipar304@g.educaand.es</email>
+			<tel_movil>694446036</tel_movil>
+			<tel_fijo/>
+		</contacto>	
+	</datos_contacto>
+	<datos_contacto_ad>
+		<pag_web/>
+		<redes_sociales>
+			<nombre>Instagram</nombre>
+			<nombre>Facebook</nombre>
+			<nombre>Twitter</nombre>
+		</redes_sociales>
+	</datos_contacto_ad>
+	<formacion>
+		<estudio id="1">
+			<nombre_estudio>ESO</nombre_estudio>
+			<lugar_estudio>IES. Vicente Aleixandre</lugar_estudio>
+			<fecha_inicio></fecha_inicio>
+			<fecha_fin></fecha_fin>
+		</estudio>
+		<estudio id="2">
+			<nombre_estudio></nombre_estudio>
+			<lugar_estudio></lugar_estudio>
+			<fecha_inicio></fecha_inicio>
+			<fecha_fin></fecha_fin>
+		</estudio>
+
+	</formacion>
+		<idioma id="1">
+			<nombre_idioma></nombre_idioma>
+			<niv_exp_oral></niv_exp_oral>
+			<niv_comp_oral></niv_comp_oral>
+			<niv_exp_escrita></niv_exp_escrita>
+			<niv_exp_escrita></niv_exp_escrita>		
+		</idioma>
+		<idioma id="2">
+			<nombre_idioma></nombre_idioma>
+			<niv_exp_oral></niv_exp_oral>
+			<niv_comp_oral></niv_comp_oral>
+			<niv_exp_escrita></niv_exp_escrita>
+			<niv_exp_escrita></niv_exp_escrita>		
+		</idioma>
+
+	<exp_laboral>
+		<experiencia id="1">
+			<lugar_exp></lugar_exp>
+			<puesto></puesto>
+			<fecha_inicio></fecha_inicio>
+			<fecha_fin></fecha_fin>
+		</experiencia>
+	</exp_laboral>
+	<comp_socio-prof>
+		<competencia id="1">
+			<nombre></nombre>
+			<niv></niv>
+		</competencia>
+	</comp_socio-prof>
+	<datos_ad>
+		<aficiones></aficiones>
+		<disponibilidad_viajes></disponibilidad_viajes>
+		<vehiculo_propio></vehiculo_propio>
+	</datos_ad>
+</curriculum>

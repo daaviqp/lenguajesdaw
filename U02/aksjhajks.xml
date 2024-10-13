@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webService program="Apache" creationDate="2024-01-01" lastUpdate="2024-10-01">
+    <hosting companyName="WebHost Inc." monthlyPrice="29.99"/>
+    <virtualServer id="123-ABCDE">
+        <domain>www.example1.com</domain>
+        <directory>/var/www/example1</directory>
+        <secureMode>true</secureMode>
+        <incidents>
+            <incident>
+                <description>Fallo en la base de datos</description>
+                <solution>Reinicio del servidor</solution>
+            </incident>
+            <incident>
+                <description>Actualización de seguridad</description>
+                <solution>Aplicación de parche</solution>
+            </incident>
+        </incidents>
+    </virtualServer>
+    <virtualServer id="456-FGHIJ">
+        <domain>www.example2.com</domain>
+        <directory>/var/www/example2</directory>
+        <secureMode>false</secureMode>
+    </virtualServer>
+</webService>

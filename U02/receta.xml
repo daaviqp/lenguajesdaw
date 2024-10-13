@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<recetas>
+		<receta id="1">
+			<nombrereceta>Sopa de cebolla<nombrereceta>
+			<ingredientes>
+				<ingrediente>
+					<nombre>Cebolla</nombre>
+					<cantidad unidad="gk">1<cantidad>
+				</ingrediente>
+				
+				<ingrediente>
+					<nombre>Pan tostado</nombre>
+					<cantidad unidad="rebanada"/>
+				</ingrediente>
+				
+				<ingrediente>
+					<nombre>Pimienta</nombre>
+					<cantidad unidad=""><cantidad>
+					<!-- No se incluye la etiqueta cantidad porque no se indica,
+					también podríamos incluir la etiqueta vacía <cantidad/> -->
+				</ingrediente>
+				
+				<ingrediente>
+					<nombre></nombre>
+					<cantidad unidad=""><cantidad>
+				</ingrediente>
+				
+				<ingrediente>
+					<nombre></nombre>
+					<cantidad unidad=""><cantidad>
+				</ingrediente>
+			
+			</ingredientes>
+			<!-- También se podría poner como atributo de receta o del nombre de la receta -->
+			
+			<numcomensales>4</numcomensales>
+			<proceso></proceso>
+				<paso orden="1">
+					<tiempo/>
+					<instruucion>bla bla bla</instruccion>
+				</paso>
+				
+				<paso orden="2">
+					<tiempo/>
+					<instruucion>bla bla bla</instruccion>
+
+				</paso>
+				
+				<paso orden="5">
+					<tiempo unidad="minuto">15</tiempo>
+					<instruucion>bla bla bla</instruccion>
+				</paso>
+
+
+				<!-- incluir el resto de pasos -->
+		</receta>
+	</recetas>

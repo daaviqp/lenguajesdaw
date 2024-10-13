@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servicio_web programa="Apache" fechaCreacion="20/06/2024" fechaUltAct="13/10/2024">
+	<hosting nombreCompania="Compañía Host" precioMensual="33.33"/>
+	<servidores>
+		<servidor id="123-ABCDE">
+			<dominio>www.ejemplo1.com</dominio>
+			<directorio></directorio>
+			<modoSeguro valor="true"/>
+			<incidencias>
+				<incidencia id:"1">
+					<descripcion>Fallo en la base de datos</descripcion>
+					<solucion>Reinicio del servidor</solucion>
+				</incidencia>
+			</incidencias>
+		</servidor>
+		<servidor id="456-HIJKL">
+			<dominio>www.ejemplo2.com</dominio>
+			<directorio></directorio>
+			<modoSeguro valor="false"/>
+		</servidor>
+	</servidores>
+</servicio_web>
