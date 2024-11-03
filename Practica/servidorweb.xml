@@ -4,7 +4,7 @@
 	<servidores>
 		<servidor id="123-ABCDE">
 			<dominio>www.ejemplo1.com</dominio>
-			<directorio></directorio>
+			<directorio>/usuarios/david/escritorio</directorio>
 			<modoSeguro valor="true"/>
 			<incidencias>
 				<incidencia id:"1">

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lenguajedemarcas>
 	<tiempo unidad="hora">3</tiempo>
-	<fecha unidad="meses">16/09/2024-20/05/2025</fecha>
-	<!-- PREGUNTAR A JUANFRAN SOBRE LA FECHA-->
+	<fecha fechainicio="16/09/2024" fechafin="20/05/2025"/>
 	<estudiantes>
 		<estudiante id="1">
 			<nombre>Ana Fernández Gutiérrez</nombre>
