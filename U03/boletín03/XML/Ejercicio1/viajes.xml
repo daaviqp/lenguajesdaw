@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE viajes [ 
+<!ELEMENT viajes (austria, italia, francia)> 
+<!ELEMENT austria (ciudad+)> 
+<!ELEMENT italia (ciudad+)> 
+<!ELEMENT francia (ciudad+)> 
+<!ELEMENT ciudad (#PCDATA)> 
+]> 
+<viajes> 
+    <austria> 
+        <ciudad>viena</ciudad>
+    </austria> 
+    <italia> 
+        <ciudad>florencia</ciudad>
+        <ciudad>roma</ciudad>
+        <ciudad>venecia</ciudad>
+    </italia> 
+    <francia>
+        <ciudad>parís</ciudad>
+    </francia>
+</viajes> 
+
+
+<!--SOLUCIÓN 
+Según la DTD, los elementos ciudad deben contener datos (#PCDATA). 
+En el XML, los elementos <viena/>, <florencia/>, <roma/>, y <venecia/> están vacíos, lo cual no es válido.
+
+Elemento francia vacío: La DTD especifica que los elementos austria, italia, y francia deben contener 
+al menos un elemento ciudad. 
+En el XML, el elemento <francia/> está vacío, lo cual viola esta regla.
+-->

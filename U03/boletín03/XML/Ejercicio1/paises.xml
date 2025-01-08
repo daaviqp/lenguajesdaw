@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE paises [ 
+<!ELEMENT paises (pais, ciudad?)*> 
+<!ELEMENT pais (#PCDATA)> 
+<!ELEMENT ciudad (#PCDATA)> 
+]> 
+<paises> 
+    <pais>italia</pais> 
+    <ciudad>florencia</ciudad> 
+    <pais>portugal</pais> 
+    <ciudad>lisboa</ciudad> 
+    <pais>portugal</pais> 
+    <ciudad>oporto</ciudad> 
+    <pais>francia</pais> 
+</paises>
+
+<!-- SOLUCIÓN:
+Cada pais debe ser seguido opcionalmente por un único ciudad. De ahí el "?" 
+Es decir, un pais no puede estar seguido de más de un ciudad, 
+ni tampoco puede haber dos ciudad seguidos sin un nuevo pais.
+-->
